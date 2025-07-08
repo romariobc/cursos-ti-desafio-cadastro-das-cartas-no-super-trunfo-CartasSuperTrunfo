@@ -22,8 +22,8 @@ int main() {
     int pontos_turisticos2;
     
     // Cadastro da primeira carta
-    printf("=== SUPER TRUNFO - PAÍSES ===\\n");
-    printf("\\n--- CADASTRO DA PRIMEIRA CARTA ---\\n");
+    printf("=== SUPER TRUNFO - PAÍSES ===\n");
+    printf("--- CADASTRO DA PRIMEIRA CARTA ---\n");
     
     printf("Digite o código da carta (ex: A01): ");
     scanf("%s", codigo1);
@@ -41,7 +41,7 @@ int main() {
     scanf("%d", &pontos_turisticos1);
     
     // Cadastro da segunda carta
-    printf("\\n--- CADASTRO DA SEGUNDA CARTA ---\\n");
+    printf("--- CADASTRO DA SEGUNDA CARTA ---\n");
     
     printf("Digite o código da carta (ex: B02): ");
     scanf("%s", codigo2);
@@ -59,23 +59,23 @@ int main() {
     scanf("%d", &pontos_turisticos2);
     
     //Exibição dos dados cadastrados
-    printf("\\n=== CARTAS CADASTRADAS ===\\n");
+    printf("=== CARTAS CADASTRADAS ===\n");
     
-    printf("\\n--- CARTÃO 1 ---\\n");
-    printf("Código: %s\\n", codigo1);
-    printf("População: %d\\n", populacao1);
-    printf("Área: %.2f km²\\n", area1);
-    printf("PIB: %.2f bilhões\\n", pib1);
-    printf("Pontos Turísticos: %d\\n", pontos_turisticos1);
+    printf("--- CARTÃO 1 ---\n");
+    printf("Código: %s\n", codigo1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões\n", pib1);
+    printf("Pontos Turísticos: %d\n", pontos_turisticos1);
     
-    printf("\\n--- CARTÃO 2 ---\\n");
-    printf("Código: %s\\n", codigo2);
-    printf("População: %d\\n", populacao2);
-    printf("Área: %.2f km²\\n", area2);
-    printf("PIB: %.2f bilhões\\n", pib2);
-    printf("Pontos Turísticos: %d\\n", pontos_turisticos2);
+    printf("n--- CARTÃO 2 ---\n");
+    printf("Código: %s\n", codigo2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões\n", pib2);
+    printf("Pontos Turísticos: %d\n", pontos_turisticos2);
     
-    printf("\\n=== CADASTRO CONCLUÍDO ===\\n");
+    printf("=== CADASTRO CONCLUÍDO ===\n");
     
  
     return 0;
